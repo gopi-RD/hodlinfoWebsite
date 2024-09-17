@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HODLINFO</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../public/index.css"/>
+</head>
+<body>
+    <div class="dark-bg-container" id="bgContainer">
+        <header class="header-container">
+            <nav class="nav-container">
+                <img src="https://hodlinfo.com/static/media/HODLINFO.8f78fc06.png" alt="HODLINFO" class="website-logo"/>
+
+                <ul class="nav-list-items-center">
+                    <li class="nav-item">
+                        <select class="dropdown-item">
+                            <option  id="option" value="INR">INR</option>
+                        </select>
+                    </li>
+                    <li class="nav-item">
+                        <select class="dropdown-item">
+                            <option value="BTC" selected>BTC</option>
+                            <option value="ETH">ETH</option>
+                            <option value="USDT">USDT</option>
+                            <option value="XRP">XRP</option>
+                            <option value="TRX">TRX</option>
+                            <option value="DASH">DASH</option>
+                            <option value="ZEC">ZEC</option>
+                            <option value="XEM">XEM</option>
+                            <option value="IOST">IOST</option>
+                            <option value="WIN">WIN</option>
+                            <option value="BTT">BTT</option>
+                            <option value="WRX">WRX</option>
+                            
+                        </select>
+                    </li>
+                    <li class="nav-item">
+                        <button class="dropdown-item">
+                            BUY BTC
+                        </button>
+                    </li>
+                </ul>
+
+                <div class="nav-container-right">
+                    <div class="timer-container">
+                        <span class="timer-count" id="timerCount">
+                            00
+                        </span>
+                    </div>
+                    <button class="connent-button-container">
+                        <img src="https://res.cloudinary.com/dzcpsxjuv/image/upload/v1726332815/qbpcntzmo7xyjqzvis28.png" alt="Telegram" class="telegram-logo" />
+                        <span class="connect-text">
+                            Connent Telegram
+                        </span>
+                    </button>
+                    <button type="button" class="bgcolor-button dark-button" id="bgColorButton" >
+                            Light
+                    </button>
+                </div>
+
+                
+            </nav>
+            
+        </header>
+
+        <div class="spinner d-none" id="spinner">
+            <div class="d-flex justify-content-center">
+              <div class="spinner-border" role="status">
+              </div>
+            </div>
+          </div>
+        <ul class="crypto-list-items d-none" id="crytoListItems">
+            <li class="list-item">
+                    <span class="list-display-id">
+                        #
+                    </span>
+                    <span class="list-platform">Platform</span>
+                    <span class="list-traded-price">Last Traded Price</span>
+                    <span class="list-buy-sell-price">Buy/Sell Price</span>
+                    <span class="list-diff">Difference</span>
+                    <span class="list-saving">Saving</span>
+            </li>
+
+        </ul>
+    </div>
+    <script src="../public/index.js"></script>
+</body>
+</html>

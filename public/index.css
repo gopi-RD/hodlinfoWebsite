@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+.dark-bg-container{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.light-bg-container{
+    background-color: #f7f7f7;
+    min-height: 100vh;
+}
+
+
+
+.header-container{
+   padding-top: 20px;
+   padding-bottom: 10px;
+}
+.nav-container{
+    padding: 0 20px; 
+    width:95%;   
+    margin: auto;
+    display:flex;
+    align-items: center;
+}
+.website-logo{
+    width: 250px;
+    margin-right: 15%;
+}
+@media (max-width: 767px){
+    .website-logo{
+        margin-right: 10%;
+        width: 180px;
+    }
+}
+
+
+
+
+
+
+.nav-list-items-center{
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+.nav-item{
+    margin: 10px;
+    border: 0px;
+    outline: none;
+    padding:6px 10px 6px 10px;
+    background-color:#2e3241;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.dropdown-item{
+    background-color:#2e3241;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    border: 0px;
+}
+
+
+@media (max-width:767px){
+    .nav-item{
+        padding: 3px 6px 3px 6px;
+        border-radius: 4px;
+    }
+    .dropdown-item{
+        font-size: 14px;
+    }
+}
+
+.nav-container-right{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+}
+.timer-container{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.timer-count{
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(32, 72, 204);
+}
+@media (max-width: 767px){
+    .timer-container{
+        height: 30px;
+        width: 30px;
+    }
+    .timer-count{
+        font-size: 14px;
+    }
+}
+
+.connent-button-container{
+    background-color: #9fd1f0;
+    border-radius: 12px;
+    border: 0px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px 30px 8px 30px;
+    margin-left: 20px;
+}
+
+@media (max-width: 767px) {
+    .connent-button-container{
+        margin-left: 10px;
+        padding: 5px 10px 5px 10px;
+    }
+}
+
+.telegram-logo{
+    width:20px;
+    color: white;
+    margin-right: 10px;
+}
+
+
+.connect-text{
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+
+}
+.crypto-list-items{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    width: 95%;
+    margin: auto;
+}
+
+.list-item{
+    display:flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.list-display-id{
+    font-weight: 700;
+    font-size: 18px;
+    margin-right:10%;
+    color: #727788;
+    width: 50px;
+}
+.list-platform{
+    color: #727788;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right:12%;
+    width: 120px;
+}
+.list-traded-price{
+    color: #727788;
+    font-weight: 700;
+    font-size: 18px;
+    width: 300px;
+    margin-right:8%;
+}
+.list-buy-sell-price{
+    color: #727788;
+    font-weight: 700;
+    font-size: 18px;
+    width: 320px;
+    margin-right:10%;
+}
+.list-diff{
+    color: #727788;
+    font-weight: 700;
+    font-size: 18px;
+    width: 150px;
+    margin-right:10%;
+}
+
+.list-saving{
+    color: #727788;
+    font-weight: 700;
+    font-size: 18px;
+    width: 200px;
+}
+.value-list-item{
+    background-color: #727788;
+    color: white;
+}
+.list-value-each{
+color: white;
+}
+.spinner{
+    color: orange;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+.bgcolor-button{
+    border-radius: 12px;
+    border: 0px;
+    cursor: pointer;
+    padding: 8px 30px 8px 30px;
+    margin-left: 20px;
+}
+
+.dark-button{
+    background-color:#fff;
+    color: #000;;
+}
+.light-button{
+    background-color:#2e3241;
+    color: white;
+}
