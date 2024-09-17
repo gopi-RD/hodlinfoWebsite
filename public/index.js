@@ -167,8 +167,10 @@ fetch(url, options).then(function(response){
 
 
 function getSourceData(){
-
+    crytoListItemsEl.classList.toggle("d-none")
     spinnerEl.classList.toggle("d-none")
+
+    
 
     onDeleteAllData()
     const url="https://api.wazirx.com/api/v2/tickers";
